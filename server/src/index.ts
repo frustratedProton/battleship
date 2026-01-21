@@ -72,8 +72,8 @@ io.on('connection', (socket) => {
 httpServer.listen(PORT, () => {
 	console.log(`════════════════════════════════════════`);
 	console.log(`  Battleship server running on port ${PORT}`);
-	console.log(`  Environment: ${NODE_ENV}`);
-	console.log(`  Accepting connections from: ${CLIENT_URL}`);
+	// console.log(`  Environment: ${NODE_ENV}`);
+	// console.log(`  Accepting connections from: ${CLIENT_URL}`);
 	console.log(`════════════════════════════════════════`);
 });
 
